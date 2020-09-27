@@ -407,7 +407,7 @@ semper aliquam quis mattis consectetur adipiscing elit.." </p>
           <input name="name" id="name" type="text" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" placeholder="Your name..." >
           <input name="email" id="email" type="email" class=" col-xs-12 col-sm-12 col-md-12 col-lg-12 noMarr" placeholder="Email Address..." >
           <textarea name="comments" id="comments" cols="" rows="" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" placeholder="Message..."></textarea>
-          <input type="submit" id="submit" name="send" class="submitBnt" value="Send">
+          <input type="submit" id="submit" name="send" class="submitBnt" value="Send" onclick="sendEmail()">
           <div id="simple-msg"></div>
         </form>
       </div>
@@ -439,13 +439,14 @@ semper aliquam quis mattis consectetur adipiscing elit.." </p>
 </footer>
 <!-- Footer section --> 
 <!-- JS FILES --> 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>  
+<script src="https://smtpjs.com/v3/smtp.js"></script>  
 <script src="js/bootstrap.min.js"></script> 
 <script src="js/jquery.flexslider-min.js"></script> 
 <script src="js/jquery.fancybox.pack.js"></script> 
 <script src="js/retina.min.js"></script> 
 <script src="js/modernizr.js"></script> 
 <script src="js/main.js"></script> 
-<script type="text/javascript" src="js/jquery.contact.js"></script> 
+<script type="text/javascript" src="js/jquery.contact.js"></script>
 </body>
 </html>
