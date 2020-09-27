@@ -100,7 +100,7 @@ function sendEmail() {
 	Username : "<sender’s email address>",
 	Password : "<email password>",
 	To : 'tahakassar54@gmail.com',
-	From : "<sender’s email address>",
+	From : "tahakassar01@gmail.com",
 	Subject : "<email subject>",
 	Body : "<email body>",
 	}).then(
