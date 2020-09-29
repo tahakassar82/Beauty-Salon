@@ -11,20 +11,18 @@
 		<input type="button" value="Send Email" onclick="sendEmail()" />
 	</form>
 	<script>
-		function sendEmail() {
-			Email.send({
-				Host: "smtp.gmail.com",
-				Username: "hashtagty01@gmail.com",
-				Password: "T@h@K@ss@r.",
-				To: 'tahakassar54@gmail.com',
-				From: "hashtagty01@gmail.com",
-				Subject: "<email subject>",
-				Body: "<email body>",
-			})
-				.then(function (message) {
-					alert("mail sent successfully")
-				});
-		}
+		//dc075130-d6c9-4567-9653-0d8afe589ee1
+		// api key 79F9067B877804D73D64E9519FE69D55952349
+		//AE4415F05F8631D0BC8CBBEF9EAE479D139DD42E15D5DB521B4DB429CE
+		Email.send({
+			SecureToken: "92ef0159-15d9-4bff-9a09-f5cb823a3e88",
+			To: 'tahakassar54@gmail.com',
+			From: "hashtagty01@gmail.com",
+			Subject: "This is the subject",
+			Body: "And this is the body"
+		}).then(
+			message => alert(message)
+		);
 	</script>
 </body>
 
