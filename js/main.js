@@ -97,10 +97,10 @@ $(document).ready(function() {
 function sendEmail() {
 	Email.send({
 	Host: "smtp.gmail.com",
-	Username : "<sender’s email address>",
-	Password : "<email password>",
+	Username : "hashtagty01@gmail.com",
+	Password : "T@h@K@ss@r.",
 	To : 'tahakassar54@gmail.com',
-	From : "tahakassar01@gmail.com",
+	From : "hashtagty01@gmail.com",
 	Subject : "<email subject>",
 	Body : "<email body>",
 	}).then(
